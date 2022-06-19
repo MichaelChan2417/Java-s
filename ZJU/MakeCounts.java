@@ -8,10 +8,10 @@ public class MakeCounts {
         int x = in.nextInt();
         int hold = x, digits = 0;
 
-        while(hold > 0){
+        do{
             digits += 1;
             hold = hold/10;
-        }
+        }while(hold > 0);
 
         System.out.println(digits);
 
