@@ -15,3 +15,5 @@
     DoData(new MySql) || DoData(new Orecal)
 
     这时候 内部的method都会根据具体的类去调用针对具体类重写过后的 提高代码复用率就不需要去专门的写MySql和Orecal专门的DoData。
+    
+3.1 多态plus：举个例子 Person p = new Man(); 其中 Man 是 Person 的子类；那么在堆空间中是包含了同时Man和Person的属性和方法。对属性的调用 只能用Person的 但是 对方法的调用 用的都是最新的方法，指用重写过后的方法。怎么才能不用重写的方法呢？ 那就老老实实Person p = new Person(); 在Man类中不用重写才是super.方法名。
