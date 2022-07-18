@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0488f82-8839-4a2b-9db7-1d51825a57e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1-100/Q1-100.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1-100/src/Q43_MultiplyStrings/MultiplyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1-100/src/Q4_MedianOfTwoSortedList/findMedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1-100/src/Q54_SpiralMatrix/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1-100/src/Q8_MyString2Int/MyAtoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q101-200/Q101-200.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1706-1800/Q1706-1800.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q1706-1800/src/Q1706_BallsFall/BallsFall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q201-300/Q201-300.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q201-300/src/Q202_HappyNumber/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q1-100/Q43_MultiplyStrings/MultiplyString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q1-100/Q4_MedianOfTwoSortedList/findMedianSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q1-100/Q54_SpiralMatrix/SpiralMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q1-100/Q8_MyString2Int/MyAtoi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q201-300/Q202_HappyNumber/HappyNumber.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C6HFSD6E3OO9X1aeNjt2Eirtwm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/MSI_NB/Desktop/Java-s/LeetCode",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.SpiralMatrix">
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q202_HappyNumber.HappyNumber" />
+      <module name="Q201-300" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q202_HappyNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q43_MultiplyStrings.MultiplyString" />
+      <module name="Q1-100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q43_MultiplyStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q8_MyString2Int.MyAtoi" />
+      <module name="Q1-100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q8_MyString2Int.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q54_SpiralMatrix.SpiralMatrix" />
+      <module name="Q1-100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q54_SpiralMatrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q4_MedianOfTwoSortedList.findMedianSortedArrays" />
+      <module name="Q1-100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q4_MedianOfTwoSortedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.HappyNumber" />
+        <item itemvalue="Application.MultiplyString" />
+        <item itemvalue="Application.MyAtoi" />
+        <item itemvalue="Application.findMedianSortedArrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0488f82-8839-4a2b-9db7-1d51825a57e0" name="Changes" comment="" />
+      <created>1658116011391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658116011391</updated>
+      <workItem from="1658116013035" duration="12652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
