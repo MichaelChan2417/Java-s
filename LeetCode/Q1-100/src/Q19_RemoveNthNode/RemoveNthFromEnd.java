@@ -2,6 +2,8 @@ package Q19_RemoveNthNode;
 
 import ListNode.ListNode;
 
+import java.util.Stack;
+
 
 public class RemoveNthFromEnd {
 
