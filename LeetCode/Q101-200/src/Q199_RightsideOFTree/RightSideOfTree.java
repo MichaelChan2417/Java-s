@@ -28,14 +28,19 @@ public class RightSideOfTree {
         TreeNode tempnode;
         int last = 0;
         int cnt = 0;
+
         while(!rootQ.isEmpty()){
             tempnode = rootQ.poll();
             if(tempnode == null) continue;
-            
+
             last = tempnode.val;
             cnt++;
-            holdQ.offer(tempnode.left);
-            holdQ.offer(tempnode.right);
+            if(tempnode.left != null){
+                holdQ.offer(tempnode.left);
+            }
+            if(tempnode.right != null){
+                holdQ.offer(tempnode.right);
+            }
         }
 
         if(cnt != 0){
@@ -43,9 +48,12 @@ public class RightSideOfTree {
         }
 
         while(!holdQ.isEmpty()){
-            rootQ.offer(holdQ.poll());
+            TreeNode tp = holdQ.poll();
+            rootQ.offer(tp);
         }
 
-        levelRun(rootQ);
+        if(rootQ != null && rootQ.size() > 0){
+            levelRun(rootQ);
+        }
     }
 }
