@@ -1,6 +1,6 @@
 # Java-s
 
-## 几个定义
+## JavaSE
 
 1. 重载：Overloading. 对方法而言，只看方法名和参数列表，不看返回类型。方法名相同，参数列表不同 就是方法的重载。经典例子：构造函数（空）和包含输入参数的构造函数。
 
@@ -12,12 +12,20 @@
 
     大应用：就比如现在有个方法/公共函数是针对Database的 比如是 public DoData(baseSQL)；这边呢有MySql和Orecal两种数据库函数要去调用DoData。就可以是:
 
-    DoData(new MySql) || DoData(new Orecal)
+    DoData(new MySql) || DoData(new Oracle)
 
-    这时候 内部的method都会根据具体的类去调用针对具体类重写过后的 提高代码复用率就不需要去专门的写MySql和Orecal专门的DoData。
+    这时候 内部的method都会根据具体的类去调用针对具体类重写过后的 提高代码复用率就不需要去专门的写MySql和Oracle专门的DoData。
     
 3.1 多态plus：举个例子 Person p = new Man(); 其中 Man 是 Person 的子类；那么在堆空间中是包含了同时Man和Person的属性和方法。对属性的调用 只能用Person的 但是 对方法的调用 用的都是最新的方法，指用重写过后的方法。怎么才能不用重写的方法呢？ 那就老老实实Person p = new Person(); 在Man类中不用重写才是super.方法名。
 
+## JDBC
+
+1. 建立数据库连接池需要4项基本：Driver(驱动), URL(数据库url), User, Password. 
+   方式：
+   1)硬编码直接写进去com.mysql.jdbc.Driver...
+   2)反射:Class.forName(xxx)
+   3)DriverManager...(对Mysql注册在类加载时注册了)
+   4)数据库连接池
 
 ## JavaWeb
 
