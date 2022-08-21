@@ -37,4 +37,4 @@
 
 ## JavaWeb
 
-1. jQuery对象本质上是 “DOM对象数组” + “jQuery封装函数”
+1. jQuery对象本质上是 “DOM对象数组” + “jQuery封装函数” [object Object]
