@@ -10,15 +10,16 @@
 
 3. 多态：父类的引用指向了子类的对象 Person p = new Man();
 
-编译阶段：只能调用父类中写的方法 但是实际运行时用的是子类的方法（重写的）。同时！！堆中是包含父类和子类都的属性。
+    编译阶段：只能调用父类中写的方法 但是实际运行时用的是子类的方法（重写的）。同时！！堆中是包含父类和子类都的属性。
 
-大应用：就比如现在有个方法/公共函数是针对Database的 比如是 public DoData(baseSQL)；这边呢有MySql和Orecal两种数据库函数要去调用DoData。就可以是:
+    大应用：就比如现在有个方法/公共函数是针对Database的 比如是 public DoData(baseSQL)；这边呢有MySql和Orecal两种数据库函数要去调用DoData。就可以是:
 
-DoData(new MySql) || DoData(new Oracle)
+    DoData(new MySql) || DoData(new Oracle)
 
-这时候 内部的method都会根据具体的类去调用针对具体类重写过后的 提高代码复用率就不需要去专门的写MySql和Oracle专门的DoData。
+    这时候 内部的method都会根据具体的类去调用针对具体类重写过后的 提高代码复用率就不需要去专门的写MySql和Oracle专门的DoData。
     
-    3.1 多态plus：举个例子 Person p = new Man(); 其中 Man 是 Person 的子类；那么在堆空间中是包含了同时Man和Person的属性和方法。对属性的调用 只能用Person的 但是 对方法的调用 用的都是最新的方法，指用重写过后的方法。怎么才能不用重写的方法呢？ 那就老老实实Person p = new Person(); 在Man类中不用重写才是super.方法名。
+    3.1 多态plus：举个例子 Person p = new Man(); 其中 Man 是 Person 的子类；
+    那么在堆空间中是包含了同时Man和Person的属性和方法。对属性的调用 只能用Person的 但是 对方法的调用 用的都是最新的方法，指用重写过后的方法。怎么才能不用重写的方法呢？ 那就老老实实      Person p = new Person(); 在Man类中不用重写才是super.方法名。
 
 ## JDBC
 
