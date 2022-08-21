@@ -21,10 +21,15 @@
 ## JDBC
 
 1. 建立数据库连接池需要4项基本：Driver(驱动), URL(数据库url), User, Password. 
+
    方式：
+   
    1)硬编码直接写进去com.mysql.jdbc.Driver...
+
    2)反射:Class.forName(xxx)
+   
    3)DriverManager...(对Mysql注册在类加载时注册了)
+   
    4)数据库连接池
 
 ## JavaWeb
