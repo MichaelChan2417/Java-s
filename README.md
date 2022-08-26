@@ -34,15 +34,3 @@
    3)DriverManager...(对Mysql注册在类加载时注册了)
    
    4)数据库连接池
-
-## JavaWeb
-
-1. jQuery对象本质上是 “DOM对象数组” + “jQuery封装函数” [object Object]
-
-2. Servlet:
-
-    1) 继承关系：HttpServlet -> GenericServlet -> Servlet
-    
-    2) Servlet中核心方法：init(), service(), destroy()
-    
-    3) 服务方法：当有请求过来时，service方法会自动响应(Tomcat容器调用的)，在HttpServlet(继承子类)中分析请求(request)的种类方式(Post/Get/Head/Delete/...)然后根据种类调用不同的方法(doPost/doGet(default)/doHead).这些方法需要进一步去完善，默认是405实现风格的，报405错误
