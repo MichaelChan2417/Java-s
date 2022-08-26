@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1-100/Q1-100.iml" filepath="$PROJECT_DIR$/Q1-100/Q1-100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q101-200/Q101-200.iml" filepath="$PROJECT_DIR$/Q101-200/Q101-200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1101-1200/Q1101-1200.iml" filepath="$PROJECT_DIR$/Q1101-1200/Q1101-1200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1201-1300/Q1201-1300.iml" filepath="$PROJECT_DIR$/Q1201-1300/Q1201-1300.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1301-1400/Q1301-1400.iml" filepath="$PROJECT_DIR$/Q1301-1400/Q1301-1400.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1401-1500/Q1401-1500.iml" filepath="$PROJECT_DIR$/Q1401-1500/Q1401-1500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1501-1600/Q1501-1600.iml" filepath="$PROJECT_DIR$/Q1501-1600/Q1501-1600.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1701-1800/Q1701-1800.iml" filepath="$PROJECT_DIR$/Q1701-1800/Q1701-1800.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q1801-1900/Q1801-1900.iml" filepath="$PROJECT_DIR$/Q1801-1900/Q1801-1900.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q2001-2100/Q2001-2100.iml" filepath="$PROJECT_DIR$/Q2001-2100/Q2001-2100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q201-300/Q201-300.iml" filepath="$PROJECT_DIR$/Q201-300/Q201-300.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q2101-2200/Q2101-2200.iml" filepath="$PROJECT_DIR$/Q2101-2200/Q2101-2200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q301-400/Q301-400.iml" filepath="$PROJECT_DIR$/Q301-400/Q301-400.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q401-500/Q401-500.iml" filepath="$PROJECT_DIR$/Q401-500/Q401-500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q501-600/Q501-600.iml" filepath="$PROJECT_DIR$/Q501-600/Q501-600.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q601-700/Q601-700.iml" filepath="$PROJECT_DIR$/Q601-700/Q601-700.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q701-800/Q701-800.iml" filepath="$PROJECT_DIR$/Q701-800/Q701-800.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q801-900/Q801-900.iml" filepath="$PROJECT_DIR$/Q801-900/Q801-900.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q901-1000/Q901-1000.iml" filepath="$PROJECT_DIR$/Q901-1000/Q901-1000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week/Week.iml" filepath="$PROJECT_DIR$/Week/Week.iml" />
+    </modules>
+  </component>
+</project>
