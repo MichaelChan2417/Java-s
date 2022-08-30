@@ -1,0 +1,51 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css">
+    <script language="JavaScript" src="js/index.js"></script>
+</head>
+<body>
+<div id="div_container">
+    <div id="div_fruit_list">
+        <p class="center f30">Fruit Storage Management System</p>
+        <div style="border: 0px solid red; width: 60%; margin-left: 20%; text-align: right">
+            <form th:action="@{/index}" method="post" style="float: left; width: 60%; margin-left: 20%">
+                <input type="hidden" name="oper" value="search"/>
+                Please Input Search KeyWord: <input type="text" name="keyword" th:value="${session.keyword}"/>
+                <input type="submit" value="SEARCH" class="btn"/>
+            </form>
+            <a th:href="@{/add.html}" style="border: 0px solid blue; margin-bottom: 4px">Add New Fruit</a>
+        </div>
+
+        <table id="tbl_fruit">
+            <tr>
+                <th class="w20">Name</th>
+                <th class="w20">Price</th>
+                <th class="w20">Storage</th>
+                <th class="w20">Remark</th>
+                <th>Action</th>
+            </tr>
+            <tr th:if="${#lists.isEmpty(session.fruitList)}">
+                <td colspan="5">Sorry, it's EMPTY!!!</td>
+            </tr>
+            <tr th:unless="${#lists.isEmpty(session.fruitList)}" th:each="fruit : ${session.fruitList}">
+<!--                <td><a th:href="@{'/edit.do?fid='+${fruit.fid}}" th:text="${fruit.fname}">**</a></td>-->
+                <td><a th:href="@{/edit.do(fid=${fruit.fid})}" th:text="${fruit.fname}">**</a></td>
+                <td th:text="${fruit.price}">**</td>
+                <td th:text="${fruit.fcount}">**</td>
+                <td th:text="${fruit.remark}">**</td>
+<!--                <td><img src="imgs/del.jpg" class="delImg" th:onclick="'delFruit(' + ${fruit.fid} + ')'"/></td>-->
+                <td><img src="imgs/del.jpg" class="delImg" th:onclick="|delFruit(${fruit.fid})|"/></td>
+            </tr>
+        </table>
+
+        <div style="width: 60%; margin-left: 20%; padding-top: 4px;" class="center">
+            <input type="button" value="Head Page" class="btn" th:onclick="page(1)" th:disabled="${session.pageNo==1}"/>
+            <input type="button" value="Prev Page" class="btn" th:onclick="|page(${session.pageNo - 1})|" th:disabled="${session.pageNo==1}"/>
+            <input type="button" value="Next Page" class="btn" th:onclick="|page(${session.pageNo + 1})|" th:disabled="${session.pageNo==session.totalPage}"/>
+            <input type="button" value="End  Page" class="btn" th:onclick="|page(${session.totalPage})|" th:disabled="${session.pageNo==session.totalPage}"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
