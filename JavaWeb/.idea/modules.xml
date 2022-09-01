@@ -6,7 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/web01/web01.iml" filepath="$PROJECT_DIR$/web01/web01.iml" />
       <module fileurl="file://$PROJECT_DIR$/web02-thymeleaf/web02-thymeleaf.iml" filepath="$PROJECT_DIR$/web02-thymeleaf/web02-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/web03-fruit-thymeleaf/web03-fruit-thymeleaf.iml" filepath="$PROJECT_DIR$/web03-fruit-thymeleaf/web03-fruit-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web04-fruit1.1-thymeleaf/web04-fruit1.1-thymeleaf.iml" filepath="$PROJECT_DIR$/web04-fruit1.1-thymeleaf/web04-fruit1.1-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web04-fruit1.1-pagination/web04-fruit1.1-pagination.iml" filepath="$PROJECT_DIR$/web04-fruit1.1-pagination/web04-fruit1.1-pagination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web05-fruit1.2-keyword/web05-fruit1.2-keyword.iml" filepath="$PROJECT_DIR$/web05-fruit1.2-keyword/web05-fruit1.2-keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web06-fruit1.3-mvc/web06-fruit1.3-mvc.iml" filepath="$PROJECT_DIR$/web06-fruit1.3-mvc/web06-fruit1.3-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web07-fruit1.4-mvc-reflect/web07-fruit1.4-mvc-reflect.iml" filepath="$PROJECT_DIR$/web07-fruit1.4-mvc-reflect/web07-fruit1.4-mvc-reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web08-fruit1.5-mvc-dispatcher/web08-fruit1.5-mvc-dispatcher.iml" filepath="$PROJECT_DIR$/web08-fruit1.5-mvc-dispatcher/web08-fruit1.5-mvc-dispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web09-fruit1.6-mvc-controller/web09-fruit1.6-mvc-controller.iml" filepath="$PROJECT_DIR$/web09-fruit1.6-mvc-controller/web09-fruit1.6-mvc-controller.iml" />
     </modules>
   </component>
 </project>
