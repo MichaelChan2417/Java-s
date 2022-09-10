@@ -31,6 +31,13 @@
    2. 可以通过设置web.xml中的<load-on-startup>设置servlet的启动顺序，数字越小，启动越早
    
     e) Servlet在线程中是单例的，**线程不安全**的
+5. Servlet初始化方法有两种：init() 和 init(config)；其中 带参数的如下：
+
+    public void init(ServletConfig config) {this.config = config;
+    init(); }
+    
+    另一个
+
 
 ### 会话
 

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro18-servlet-api/pro18-servlet-api.iml" filepath="$PROJECT_DIR$/pro18-servlet-api/pro18-servlet-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro19-filter-listener/pro19-filter-listener.iml" filepath="$PROJECT_DIR$/pro19-filter-listener/pro19-filter-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/web01/web01.iml" filepath="$PROJECT_DIR$/web01/web01.iml" />
       <module fileurl="file://$PROJECT_DIR$/web02-thymeleaf/web02-thymeleaf.iml" filepath="$PROJECT_DIR$/web02-thymeleaf/web02-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/web03-fruit-thymeleaf/web03-fruit-thymeleaf.iml" filepath="$PROJECT_DIR$/web03-fruit-thymeleaf/web03-fruit-thymeleaf.iml" />
@@ -12,6 +14,11 @@
       <module fileurl="file://$PROJECT_DIR$/web07-fruit1.4-mvc-reflect/web07-fruit1.4-mvc-reflect.iml" filepath="$PROJECT_DIR$/web07-fruit1.4-mvc-reflect/web07-fruit1.4-mvc-reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/web08-fruit1.5-mvc-dispatcher/web08-fruit1.5-mvc-dispatcher.iml" filepath="$PROJECT_DIR$/web08-fruit1.5-mvc-dispatcher/web08-fruit1.5-mvc-dispatcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/web09-fruit1.6-mvc-controller/web09-fruit1.6-mvc-controller.iml" filepath="$PROJECT_DIR$/web09-fruit1.6-mvc-controller/web09-fruit1.6-mvc-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web10-fruit1.7-mvc-service-ioc/web10-fruit1.7-mvc-service-ioc.iml" filepath="$PROJECT_DIR$/web10-fruit1.7-mvc-service-ioc/web10-fruit1.7-mvc-service-ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web11-fruit2.3-mvc-transaction/web11-fruit2.3-mvc-transaction.iml" filepath="$PROJECT_DIR$/web11-fruit2.3-mvc-transaction/web11-fruit2.3-mvc-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web20-qqzone1.0/web20-qqzone1.0.iml" filepath="$PROJECT_DIR$/web20-qqzone1.0/web20-qqzone1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web21-qqzone1.0/web21-qqzone1.0.iml" filepath="$PROJECT_DIR$/web21-qqzone1.0/web21-qqzone1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web22-qqzone1.0/web22-qqzone1.0.iml" filepath="$PROJECT_DIR$/web22-qqzone1.0/web22-qqzone1.0.iml" />
     </modules>
   </component>
 </project>

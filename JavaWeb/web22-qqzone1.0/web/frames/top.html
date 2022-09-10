@@ -1,0 +1,20 @@
+<!--<!DOCTYPE html>-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <link rel="stylesheet" th:href="@{/css/top.css}">
+</head>
+<body>
+    <div id="top_title" >Have fun in QQZone！</div>
+    <div id="top_link_div" >
+        <!--    判断userBasic和friend这两个key值是否相同    -->
+        <span th:text="|Welcome to ${session.friend.nickName}s personal zone!|"></span>
+        <br/>
+        <span th:if="${session.userBasic.id!=session.friend.id}">
+            <a th:href="@{|/user.do?operate=friendVisit&id=${session.userBasic.id}|}" target="_top">Back to my own zone!</a>
+        </span>
+    </div>
+</body>
+</html>

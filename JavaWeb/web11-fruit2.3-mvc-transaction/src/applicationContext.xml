@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans>
+    <bean id="fruitDAO" class="fruit.dao.impl.FruitDAOImpl"/>
+    <bean id="fruitService" class="fruit.service.impl.FruitServiceImpl">
+        <property name="fruitDAO" ref="fruitDAO"/>
+    </bean>
+
+<!--  这个bean标签将servletPath是fruit的对应到相应的Controller  -->
+    <bean id="fruit" class="fruit.controllers.FruitController">
+        <property name="fruitService" ref="fruitService"/>
+    </bean>
+
+</beans>
