@@ -53,3 +53,41 @@ public class MergeInterval {
     }
 
 }
+
+/**
+ * Worked on 2022/11/04
+ */
+
+class solutionII {
+    public int[][] merge(int[][] intervals) {
+        // sort by the first interval
+        Arrays.sort(intervals, new Comparator<int[]>(){
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] - o2[0];
+            }
+        });
+        List<int[]> ans = new ArrayList<>();
+
+        int[] curInterval = intervals[0];
+        for (int i=1; i<intervals.length; i++) {
+            if (intervals[i][0] <= curInterval[1]) {
+                curInterval[1] = Math.max(curInterval[1], intervals[i][1]);
+            }
+            else {
+                ans.add(curInterval);
+                curInterval = intervals[i];
+            }
+        }
+        ans.add(curInterval);
+
+        int n = ans.size();
+        int[][] retList = new int[n][2];
+
+        for (int i=0; i<n; i++) {
+            retList[i] = ans.get(i);
+        }
+
+        return retList;
+    }
+}
